@@ -39,10 +39,12 @@ h2 {
     width: 95%;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
     margin: auto;
+    background-color: white;
 }
 
 .bottom {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around; 
     text-align: center;
     margin: 1em;
@@ -56,6 +58,7 @@ h2 {
     border-radius: 10px;
     width: 45%;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
+    background-color: white;
 }
 
 .victim,
