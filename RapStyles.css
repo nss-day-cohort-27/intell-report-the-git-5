@@ -4,6 +4,8 @@
 
 body {
     background-color: powderblue;
+    font-family: 'Cutive Mono', monospace;
+
 }
 
 li {
@@ -14,17 +16,48 @@ ul {
     padding: 0;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 .top {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    margin: 1em;
 }
 
 .prisons {
     display: flex;
     justify-content: center;
+    text-align: center;
+    border: 2px double black;
+    border-radius: 10px; 
+    width: 90%;
+    box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
+
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
 }
 
 .bottom {
     display: flex;
     justify-content: space-around; 
+    text-align: center;
+    margin: 1em;
+}
+
+.allegations,
+.convictions,
+.witnesses,
+.victims {
+    border: 2px double black;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
+
 }
