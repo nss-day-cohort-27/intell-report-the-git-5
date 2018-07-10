@@ -16,8 +16,12 @@ ul {
     padding: 0;
 }
 
-h3 {
+h2 {
     text-decoration: underline;
+}
+
+.header {
+    text-align: center;
 }
 
 .top {
@@ -53,11 +57,25 @@ h3 {
 
 .allegations,
 .convictions,
-.witnesses,
+.witness,
 .victims {
     border: 2px double black;
     border-radius: 10px;
     width: 40%;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
 
+}
+
+.victim,
+.witness {
+    padding: 0 1em;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.prison-pic {
+    width: 300px;
 }
