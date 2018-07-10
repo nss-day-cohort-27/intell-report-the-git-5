@@ -35,7 +35,7 @@ h2 {
     text-align: center;
     border: 2px double black;
     border-radius: 10px; 
-    width: 95%;
+    width: 93%;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
     margin: auto;
     background-color: white;
@@ -67,11 +67,13 @@ h2 {
 
 .profile {
     border-radius: 50%;
-    width: 200px;
+    width: 45%;
 }
 
-.prison-pic {
-    width: 300px;
+.crop img {
+    width: 65%;
+    height: auto;
+    object-fit: cover;
 }
 
 .prisons {
