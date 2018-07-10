@@ -87,4 +87,8 @@ h1 {
 
 footer {
     background-color:  #4CAF50;
+    color: darkred;
+    text-align: center;
+    border: solid 5px red;
+    overflow: hidden;
 }
