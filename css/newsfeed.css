@@ -1,5 +1,6 @@
 html {
     background-color: powderblue;
+    font-family: 'Cutive Mono', monospace;
 }
 
 h1 {
@@ -12,7 +13,6 @@ h1 {
     border-radius: 10px;
     box-shadow: 0px 0px 25px grey;
     display: flex;
-    
 }
 
 .image {
@@ -26,4 +26,13 @@ h1 {
 .baby {
     width: 25%;
     height: 25%;
+}
+
+footer {
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
 }
