@@ -33,9 +33,16 @@
 .font{
     font-family: 'Cutive Mono', monospace;
 }
+ .flex {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
 
-
-
+ .card {
+     margin: 1em;
+ }
 
 
 
