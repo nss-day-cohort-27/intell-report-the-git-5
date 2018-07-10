@@ -1,3 +1,7 @@
+* {
+    font-family: 'Cutive Mono', monospace;
+}
+
 body {
     background-color: powderblue;
 }
@@ -24,18 +28,61 @@ h1 {
 
 }
 
-.container + div {
-    justify-content: center;
+.john-doe-container {
+    display: flex;
+    flex-direction: column;
 }
 
 #john-doe-pic {
     width: 50%;
     align-self: center;
+    border-radius: 5%;
+}
+
+.alias {
+    width: 50%;
+    background-color: lightcyan;
+    border-radius: 2%;
+    text-align: center;
+    border: solid 5px slategrey;
+    box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
 
 }
 
-.descriptions {
-    display: inline;
+.alias > ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.accomplices {
+    display: flex;
+    border-radius: 2%;
+    flex-direction: row;
+}
+
+.accomplices h2, h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#accomplice-text {
+    margin: auto;
+    text-decoration: underline;
+    text-align: center;
+    color: red;
+}
+
+#john,
+#jacob,
+#jingle,
+#heimer,
+#schmidt {
+    background-color: lightcyan;
+    border-radius: 5%;
+    margin: 10px;
+    border: solid 5px slategrey;
+    box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
 }
 
 footer {
