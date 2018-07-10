@@ -1,0 +1,43 @@
+body {
+    background-color: powderblue;
+}
+
+.container {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0px;
+    margin-top: 0px;
+    font-size: 5em;
+    color: red;
+    font-family: 'PT Mono', monospace;
+}
+
+.container h2 {
+    text-align: center;
+    color: red;
+
+}
+
+.container + div {
+    justify-content: center;
+}
+
+#john-doe-pic {
+    width: 50%;
+    align-self: center;
+
+}
+
+.descriptions {
+    display: inline;
+}
+
+footer {
+    background-color:  #4CAF50;
+}
