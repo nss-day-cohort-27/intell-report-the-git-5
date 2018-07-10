@@ -16,6 +16,7 @@ h1 {
     font-size: 5em;
     color: red;
     font-family: 'PT Mono', monospace;
+    font-weight: 900;
 }
 
 .container h2 {
@@ -24,8 +25,13 @@ h1 {
 
 }
 
+.container + div {
+    justify-content: center;
+}
+
 #john-doe-pic {
-    width: 100%;
+    width: 50%;
+    align-self: center;
 
 }
 
