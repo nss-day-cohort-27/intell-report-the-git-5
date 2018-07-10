@@ -31,21 +31,14 @@ h2 {
     margin: 1em;
 }
 
-.prisons {
-    display: flex;
+.middle {
     justify-content: center;
     text-align: center;
     border: 2px double black;
     border-radius: 10px; 
-    width: 90%;
+    width: 95%;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
-
-}
-
-.middle {
-    display: flex;
-    justify-content: center;
-    margin: 1em;
+    margin: auto;
 }
 
 .bottom {
@@ -58,12 +51,11 @@ h2 {
 .allegations,
 .convictions,
 .witness,
-.victims {
+.victim {
     border: 2px double black;
     border-radius: 10px;
     width: 40%;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
-
 }
 
 .victim,
@@ -78,4 +70,10 @@ h2 {
 
 .prison-pic {
     width: 300px;
+}
+
+.prisons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
