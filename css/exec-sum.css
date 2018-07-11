@@ -17,15 +17,17 @@ body {
 h1 {
     margin: 0px;
     margin-top: 0px;
-    font-size: 5em;
+    font-size: 7em;
     color: red;
     font-family: 'PT Mono', monospace;
 }
 
 .container h2 {
+    text-decoration: underline;
     text-align: center;
     color: red;
-
+    font-size: 5em;
+    margin: auto;
 }
 
 .john-doe-container {
@@ -40,7 +42,7 @@ h1 {
 }
 
 .alias {
-    width: 50%;
+    width: 30%;
     background-color: lightcyan;
     border-radius: 2%;
     text-align: center;
@@ -48,11 +50,22 @@ h1 {
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
 
 }
+.alias > h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.alias > p {
+    font-size: 30px;
+    margin-top: 0;
+}
 
 .alias > ul {
     text-align: center;
     list-style: none;
     padding: 0;
+    margin-top: 0;
+    font-size: 30px;
 }
 
 .accomplices {
@@ -64,6 +77,10 @@ h1 {
 .accomplices h2, h3 {
     text-decoration: underline;
     text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 5px;
+
 }
 
 #accomplice-text {
@@ -71,6 +88,7 @@ h1 {
     text-decoration: underline;
     text-align: center;
     color: red;
+    font-size: 3em;
 }
 
 #john,
@@ -78,9 +96,11 @@ h1 {
 #jingle,
 #heimer,
 #schmidt {
+    justify-content: space-between;
     background-color: lightcyan;
     border-radius: 5%;
     margin: 10px;
+    padding: 5px;
     border: solid 5px slategrey;
     box-shadow: 10px 10px 7px -4px rgba(0,0,0,0.5);
 }
